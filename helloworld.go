@@ -9,6 +9,7 @@ func main() {
 	loop_understanding()
 	conditional_understanding()
 	switch_understanding()
+	fmt.Println("result: ", sum(1,2,3,4))
 }
 
 func simpleValues() {
@@ -61,4 +62,12 @@ func switch_understanding() {
 	default:
 		fmt.Println("Good days")
 	}
+}
+
+func sum(args ...int) int{
+	sum := 0
+	for _, value := range args {
+		sum += value
+	}
+	return sum
 }
