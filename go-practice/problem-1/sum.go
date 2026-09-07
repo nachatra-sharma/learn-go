@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	var brr []int
+	brr = append(brr, 5)
+	fmt.Println(brr)
 	arr := [5]int{1, 2, 3, 4, 5}
 	sumOfDigits(arr)
 }

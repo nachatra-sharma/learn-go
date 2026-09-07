@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello World")
+	for i, char := range "Nachatra" {
+		fmt.Println(i, char)
+	}
 	variables()
 	simpleValues()
 	loop_understanding()

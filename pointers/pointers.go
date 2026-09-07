@@ -19,6 +19,7 @@ func main() {
 
 func changeValueOfX(p *int) {
 	*p = 50
+	fmt.Println("checking iiiiiii",*p)
 }
 
 /**
